@@ -1,14 +1,10 @@
-baseURL = 'https://yourdomain.com/'  # Replace with your actual domain
+baseURL = 'https://thomasnesset.no/'
 languageCode = 'en-us'
-title = 'My Hugo Blog'
+title = 'Thomas Nesset'
 theme = 'PaperMod'
 
-# Azure Static Web Apps configuration
-[build]
-  publish = "public"
-
 [params]
-  author = "Your Name"
+  author = "Thomas Nesset"
   description = "A sample Hugo blog with PaperMod theme"
   keywords = ["blog", "hugo", "static site"]
   
