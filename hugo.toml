@@ -1,0 +1,40 @@
+baseURL = 'https://yourdomain.com/'  # Replace with your actual domain
+languageCode = 'en-us'
+title = 'My Hugo Blog'
+theme = 'PaperMod'
+
+# Azure Static Web Apps configuration
+[build]
+  publish = "public"
+
+[params]
+  author = "Your Name"
+  description = "A sample Hugo blog with PaperMod theme"
+  keywords = ["blog", "hugo", "static site"]
+  
+  [params.homeInfoParams]
+    Title = "Welcome to My Blog"
+    Content = "This is a sample Hugo static website built with the PaperMod theme."
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
+
+[markup]
+  [markup.highlight]
+    style = "github"
+    lineNos = true
+    codeFences = true
