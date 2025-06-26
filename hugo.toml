@@ -8,10 +8,6 @@ theme = 'PaperMod'
   description = "A sample Hugo blog with PaperMod theme"
   keywords = ["blog", "hugo", "static site"]
   
-  [params.homeInfoParams]
-    Title = "Welcome to My Blog"
-    Content = "This is a sample Hugo static website built with the PaperMod theme."
-
 [menu]
   [[menu.main]]
     identifier = "home"
